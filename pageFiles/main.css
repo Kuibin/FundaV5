@@ -435,3 +435,19 @@ div{
 .contenedorIcons{
     padding: 20px;
 }
+
+/* Footer iframe */
+.footerContactanos{
+    width:100% !important;
+    height:467px !important;
+}
+@media screen and (max-width: 991px) {
+	.footerContactanos{
+        width:100% !important;
+        height:612px !important;
+    }
+}
+
+.ifContSection{
+    background-color: #9ca3af
+}
