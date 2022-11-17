@@ -1,0 +1,193 @@
+.page {
+	/* position: fixed; */
+	/* width: calc(90% + 2px); */
+	height: 100%;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow: auto; 
+	-webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+	-moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+	-o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);  
+	transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+	
+}
+.pt-contact {
+	background-color: #9ca3af;
+}
+.contact-form {
+	position: relative;
+}
+
+.contact-form input,
+.contact-form textarea {
+	font-size: 15px;
+    height: 50px;
+	padding-bottom: 10px;
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+	-webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+	border-bottom: 1px solid #fff;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact-form textarea {
+	height: 100px;
+	margin: 50px 0;
+}
+
+/* Contact validation */
+.contact-valid .error-messages {
+	margin-top: 15px;
+}
+
+.contact-valid label.error {
+	display: block;
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 5px 0px 0 10px;
+	text-align: left;
+}
+
+.contact-valid #loader {
+	display: none;
+	margin-top: 30px;
+}
+
+.contact-valid #loader i {
+	display: inline-block;
+	font-size: 23px;
+    color: #fff;
+	-webkit-animation: rotating linear 2s infinite;
+	animation: rotating linear 2s infinite;
+}
+
+.contact-valid #success,
+.contact-valid #error {
+	display: none;
+	width: 100%;
+	color: #fff;
+	padding: 10px 10px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.contact-valid #success i,
+.contact-valid #error i {
+	padding-top: 5px;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.contact-valid #success i {
+	color: #fff;
+}
+
+.contact-valid #error i {
+	color: #ca1d1d;
+}
+/* Button Style */
+.btn-st {
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 100;
+	background-color: transparent;
+	border: none;
+	z-index: 2;
+}
+
+.btn-st:before {
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 200%;
+	top: -50%;
+	left: -15%;
+	background: #0e0f10;
+	padding: 0px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	z-index: -1;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.btn-st:after {
+	content: '';
+	position: absolute;
+	width: 110%;
+	height: 10%;
+	top: 105%;
+	left: -5%;
+	background: #fff;
+	padding: 0px;
+	z-index: 0;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.btn-st:hover:before {
+	-webkit-border-radius: unset;
+	border-radius: unset;
+	-webkit-transform: translateX(120%) scaleX(3) scaleY(0.8);
+	-ms-transform: translateX(120%) scaleX(3) scaleY(0.8);
+	transform: translateX(120%) scaleX(3) scaleY(0.8);
+}
+
+.btn-st:hover:after {
+	-webkit-transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+	-ms-transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+	transform: translateX(-55%) translateY(-550%) rotate(90deg) scaleX(0.3);
+}
+
+.btn-st:before,
+.btn-st:before {
+	height: 165%;
+    top: -30%;
+}
+
+.btn-st,
+.btn-st {
+    font-size: 16px;
+}
+.btn-st {
+	margin: 10px 10px 50px 10px;
+    font-size: 16px;
+}
+.page .mob-mt {
+	margin-top: 20px !important;
+}
+.mb-bb{
+	margin-bottom: 20px !important;
+}
+/* ---------------------------------
+		14. Responsible Css
+--------------------------------- */
+@media screen and (max-width: 991px) {
+	.pt-about .btn-st {
+		margin: 0 0 20px 20px;
+	}
+}
