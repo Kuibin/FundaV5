@@ -124,7 +124,7 @@
           <h1>NUESTROS PILARES</h1>
           <div class="row gy-4">
             <div class="col-md-4">
-              <div class="contenido2">
+              <div class="contenido3">
                 <div class="contenedorIcons"> 
                   <img src="../assets/bootstrap-icons-1.10.2/bootstrap-fill.svg" alt="Bootstrap" width="50" height="50">
                 </div>
@@ -137,7 +137,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="contenido2">
+              <div class="contenido3">
                 <div class="contenedorIcons"> 
                   <img src="../assets/bootstrap-icons-1.10.2/bootstrap-fill.svg" alt="Bootstrap" width="50" height="50">
                 </div>
@@ -150,7 +150,7 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="contenido2">
+              <div class="contenido3">
                 <div class="contenedorIcons"> 
                   <img src="../assets/bootstrap-icons-1.10.2/bootstrap-fill.svg" alt="Bootstrap" width="50" height="50">
                 </div>
@@ -232,20 +232,24 @@
         <div class="container">
           <div class="row gy-4">
             <h1 class="encabezadosBlanco">COMO AYUDAR</h1>
-            <div class="col-md-6">
+            <div class="col-md-4 columnaAyuda">
               <div class="caja-ayuda">
                 <i class="bx bx-server bx-lg icono"></i>
                 <h3 class="mb-3">En especie</h3>
                 <p>Agradecemos tu contribucion en especie.</p>
                 <p>Revisa aqui la lista completa de como puedes ayudarnos, tenemos varias opciones y toda ayuda es valiosa.</p>
                 
+
+                <!--a target="_blank" href="./donaciones.html"
+                      class="btn btn-success fondoBoton">
+                      Donar</a-->
                   <a href="./donaciones.html" class="btn-donar  align-items-center justify-content-center align-self-center">
                     <span>Donar</span>
                   </a>
                 
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4 columnaAyuda">
               <div class="caja-ayuda ">
                 <i class="bx bxs-wallet bx-lg icono"></i>
                 <h3 class="mb-3">En efectivo</h3>
@@ -258,14 +262,29 @@
                 
               </div>
             </div>
+            <div class="col-md-4 columnaAyuda">
+              <div class="caja-ayuda">
+                <i class="bx bx-server bx-lg icono"></i>
+                <h3 class="mb-3">Apadrina a un nino</h3>
+                <p>Agradecemos tu contribucion en especie.</p>
+                <p>Revisa aqui la lista completa de como puedes ayudarnos, tenemos varias opciones y toda ayuda es valiosa.</p>
+                
+                  <a href="./donaciones.html" class="btn-donar  align-items-center justify-content-center align-self-center">
+                    <span>Donar</span>
+                  </a>
+                
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section aliadosSection">
+      <section class="section section-lg aliadosSection">
+        <div class="container">
           <h1>NUESTROS ALIADOS</h1>
           <p>/logos de empresas que los han ayudado o personas importantes /</p>
           <p>/PENDIENTE /</p>
+        </div>
       </section>
 
       <section class="section redesSection section-lg">
@@ -275,7 +294,11 @@
             <div class="col-md-6 gy-3 d-flex">
               <div class="listaValores">
                 <ul>
-                  <li> <h2> Trabajo en Equipo </h2></li>
+                  <li>
+                    <div class="contenedorIcons"> 
+                      <img src="../assets/bootstrap-icons-1.10.2/instagram.svg" alt="Bootstrap" width="90" height="90">
+                    </div>
+                    <h2> @</h2></li>
                   <li><h2>Disciplina </h2></li>
                   <li><h2>Esfuerzo</h2></li>
                 </ul>
@@ -294,15 +317,12 @@
         </div>
       </section>
 
-      <section>
-        <div>
-
-        </div>
-      </section>
+      
       <!-- pie de pagina -->
-      <section class="section ifContSection">
-        <iframe class="footerContactanos" src="contactanos.html" frameborder="0"></iframe>
-        </section>
+      <section class="ifContSection">
+        <iframe class=" footerContactanos" src="contactanos.html" frameborder="0">
+        </iframe>
+      </section>
         <!-- fin pie -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

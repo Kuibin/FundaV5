@@ -277,13 +277,23 @@ div{
 }
 
 .caja-ayuda {
-    box-shadow: 0px 0 30px rgba(9, 73, 3, 0.329);
+    color: #fff;
+    /*box-shadow: 0px 0 30px rgba(9, 73, 3, 0.329);*/
     height: 100%;
     padding: 60px 30px;
     text-align: center;
     transition: 0.3s;
-    border-radius: 1px;
+    border-color: #fff;
+    border: solid 3px;
+    /*border-radius: 1px;
+    background-color:#ffffffc7;*/
+}
+
+.columnaAyuda :hover{
+    color: #000;
     background-color:#ffffff;
+    /*border-radius: 1px;*/
+    
 }
 
   .icono {
@@ -295,8 +305,8 @@ div{
     display: inline-block;
     line-height: 0;
     transition: 0.3s;
-    color: #00903b;
-    background-color:#00903c1e;
+    /*color: #00903b;
+    background-color:#00903c1e;*/
   }
 
   .btn-donar {
@@ -430,13 +440,28 @@ div{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    
+}
+.contenido3{
+    background-color: #f58e42;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 100px;
 }
 .contenedorIcons{
     padding: 20px;
 }
 
-/* Footer iframe */
+
+
+
+/* Footer iframe*/
 .footerContactanos{
     width:100% !important;
     height:467px !important;
@@ -447,7 +472,6 @@ div{
         height:612px !important;
     }
 }
-
 .ifContSection{
-    background-color: #9ca3af
+    background-color: #9ca3af;
 }
