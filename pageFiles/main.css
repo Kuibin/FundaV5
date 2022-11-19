@@ -148,10 +148,10 @@ div{
     color: #fff;
 }
 
-.ricSection{
+/*.ricSection{
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
+}*/
 
 
 
@@ -346,87 +346,6 @@ div{
 
 
 
-
-
-
-/*--------------------------------------------css momentaneo ---------------------------------*/
-/* en la de actividades*/
-.filter {
-	padding-top: 9.25rem;
-	padding-bottom: 5.625rem;
-	text-align: center;
-}
-
-.filter h2 {
-	margin-bottom: 2.625rem;
-}
-
-.filter .button-group {
-	margin-bottom: 1rem;
-}
-
-.filter .button {
-	margin-bottom: 0.75rem;
-	border: none;
-	background-color: transparent;
-	color: #222222;
-	font-weight: 600;
-	font-size: 1rem;
-}
-
-.filter .button:hover,
-.filter .button.is-checked {
-	color: #ff5574;
-}
-
-.filter .grid {
-	margin-right: auto;
-	max-width: 351px;
-	margin-left: auto;
-}
-
-.filter .element-item {
-	margin-bottom: 3rem;
-}
-
-.filter .element-item a {
-	text-decoration: none;
-}
-
-.filter .element-item img {
-	margin-bottom: 1.125rem;
-	border-radius: 8px;
-	border: 1px solid #5e6576;
-}
-
-.filter .element-item p {
-	text-align: left;
-}
-
-
-.filter .element-item p strong {
-	color: #222222;
-}
-
-.filter .button {
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
-}
-
-.filter .grid {
-    max-width: 750px;
-}
-
-.filter .element-item {
-    display: inline-block;
-    width: 351px;
-    margin-right: 0.625rem;
-    margin-left: 0.625rem;
-    vertical-align: top;
-}
-
-/*fin de actividades*/
-
 .myvSection{
     padding: 40px;
 }
@@ -455,7 +374,17 @@ div{
     border-radius: 100px;
 }
 .contenedorIcons{
-    padding: 20px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center
+}
+.contenedorIcons i{
+    padding: 0 1rem ;
+}
+.listaValores ul{
+    list-style: none;
 }
 
 
