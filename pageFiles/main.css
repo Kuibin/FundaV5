@@ -290,8 +290,9 @@ div{
 }
 
 .columnaAyuda :hover{
-    color: #000;
+    color: #00903b;
     background-color:#ffffff;
+    border-color: #fff;
     /*border-radius: 1px;*/
     
 }
@@ -345,7 +346,6 @@ div{
 }
 
 
-
 .myvSection{
     padding: 40px;
 }
@@ -376,6 +376,13 @@ div{
 .contenedorIcons{
     padding: 10px;
     color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center
+}
+.contenedorIcons2{
+    padding: 10px;
+    color: #000;
     display: flex;
     justify-content: center; 
     align-items: center
