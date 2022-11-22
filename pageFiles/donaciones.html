@@ -27,41 +27,40 @@
 <body>
   <main>
     <div>
-      <nav class="navbar navbar-main navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand me-lg-5" href="#">
-            <img src="../imgs/logo1.png" alt="" class="d-block w-100 mx-auto imgbrand">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse me-auto" id="navbarNav">
-            <ul class="navbar-nav navbar-nav-hover">
-              <li class="nav-item">
-                <a class="nav-link" href="./main.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./acercade.html">Quienes somos</a>
-              </li>
-              <!--li class="nav-item">
+      <nav class="navbar navbar-main navbar-expand-lg fixed-top bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand me-lg-5" href="./main.html">
+              <img src="../imgs/logo1.png" alt="" class="d-block w-100 mx-auto imgbrand">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-auto" id="navbarNav">
+              <ul class="navbar-nav navbar-nav-hover">
+                <li class="nav-item">
+                  <a class="nav-link" href="./main.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./acercade.html">Quienes somos</a>
+                </li>
+                <!--li class="nav-item">
                   <a class="nav-link" href="./actividades.html">Actividades</a>
                 </li=-->
-              <li class="nav-item">
-                <a class="nav-link" href="./donaciones.html">Como ayudar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./donaciones.html">Transparencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./donaciones.html">Contacto</a>
-              </li>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="./donaciones.html">Como ayudar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./donaciones.html">Transparencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./donaciones.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <div class="d-flex align-items-right">
+              <a href="./donacionesEfectivo.html" class="buttonDonar">DONAR</a>
+            </div>
           </div>
-          <div class="d-flex align-items-right">
-            <a href="#" class="btn-donar">DONAR</a>
-          </div>
-        </div>
       </nav>
     </div>
 
@@ -266,7 +265,7 @@
                 <textarea class="form-control" name="note" id="note" placeholder="Su Mensaje."></textarea>
               </div>
               <div class="col-lg-12 col-sm-12 text-center">
-                <button type="submit" class="btn-st">Enviar Mensaje</button>
+                <button type="submit" class="buttonContacto">Enviar Mensaje</button>
                 <div id="loader">
                   <i class="fas fa-sync"></i>
                 </div>
@@ -292,7 +291,7 @@
           </p>
           <h3>Descarga aqui el Aviso de Privacidad Donantes</h3>
           <a  href="AvisodePrivacidadDonantes.pdf">
-            <button type="submit" class="btn-st">Descargar aqui.</button>
+            <button type="submit" class="buttonContacto">Descargar aqui.</button>
           </a>
         </div>
       </div>
