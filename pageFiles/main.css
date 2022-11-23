@@ -275,6 +275,10 @@ div{
     line-height: 42px;
     font-weight: 700;
 }
+.pBlanco{
+    text-align: center;
+    color: #fff;
+}
 
 .caja-ayuda {
     color: #fff;
@@ -427,69 +431,45 @@ div{
     padding: 12px 24px;
     border: solid 3px;
     border-radius: 7px;
-    border-color:  #019cde;
-    background-color: #00903b;
-    color: white;
-    font-size: 21px;
-    text-decoration: none;
-    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-    vertical-align: middle;
-    }
- .buttonDonar:hover {
-    border-color: #00903b;
-    background: #fff;
-    color: #019cde;
-    }
- .buttonDonar:active {
-    border-top-color: #9fcdeb;
-    background: #9fcdeb;
-    }
-
-
-
-.buttonDonar2{
-        padding: 12px 24px;
-        border: solid 3px;
-        border-radius: 7px;
-        border-color:  #fff;
-        background-color: #00903b;
-        color: #fff;
-        font-size: 21px;
-        text-decoration: none;
-        text-shadow: rgba(0,0,0,.4) 0 1px 0;
-        vertical-align: middle;
-        }
-.buttonDonar2:hover{
-        border-color: #fff001;
-        background: #fff;
-        color: #000;
-        }
-.buttonDonar2:active {
-        border-top-color: #9fcdeb;
-        background: #9fcdeb;
-        }
-
-
-.buttonDonar2{
-    padding: 12px 24px;
-    border: solid 3px;
-    border-radius: 7px;
-    border-color:  #fff;
     background-color: #00903b;
     color: #fff;
     font-size: 21px;
     text-decoration: none;
+    vertical-align: middle;
+    }
+.buttonDonar:link{
+    background-color: #fff001;
+    color: #fff;
+}
+.buttonDonar:focus, .buttonDonar:hover{
+    background: #019cde;
+    color: #fff;
+    }
+ /*.buttonDonar:active {
+    border-top-color: #9fcdeb;
+    background: #9fcdeb;
+    }*/
+
+.buttonDonarEsp{
+    padding: 12px 24px;
+    border: solid 3px;
+    border-radius: 7px;
+    border-color:  #fff;
+    background-color: #fff001;
+    color: #000;
+    font-size: 21px;
+    text-decoration: none;
     text-shadow: rgba(0,0,0,.4) 0 1px 0;
     vertical-align: middle;
     }
-.buttonDonar2:hover{
+.buttonDonarEsp:hover{
     border-color: #fff001;
     background: #fff;
     color: #000;
     }
-.buttonDonar2:active {
-    border-top-color: #9fcdeb;
-    background: #9fcdeb;
+.buttonDonarEsp:active {
+    color: #000;
+    background: #000;
     }
 
 

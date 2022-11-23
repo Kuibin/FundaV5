@@ -1,5 +1,11 @@
 .fondoColor{
     background-color: #00903b;
+    color: #fff;
+}
+
+.fondoEsp{
+    background-color: #fff02d;
+    color: #000;
 }
 
 .fondoBoton{
