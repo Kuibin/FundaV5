@@ -1,0 +1,47 @@
+.card{
+    position: relative;
+    min-width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+.card:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: rgba(255, 255, 255, .1);
+    z-index: 1;
+    transform: skewY(-5deg) scale(1.5);
+  }
+
+  .card .titulo{
+    z-index: 3;
+  }
+  .card .pies{
+    z-index: 3;
+  }
+  
+  .card .textocards{
+    z-index: 3;
+  }
+
+  .card-ama:hover {
+    background: linear-gradient(0deg, #cec767, #fff02d);
+  }
+  .card-ver:hover {
+    background: linear-gradient(0deg, #6cd397, #00903b);
+    color: #fff;
+  }
+  .card-azul:hover {
+    background: linear-gradient(0deg, #96d0e6, #00abeb);
+    color: #fff;
+  }
+  .card-gr:hover {
+    background: linear-gradient(0deg, #cfcfd1, #9192a6);
+    color: #fff;
+  }
