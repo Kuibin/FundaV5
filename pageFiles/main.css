@@ -275,22 +275,13 @@ div{
     line-height: 42px;
     font-weight: 700;
 }
+
+.cards1{
+    
+}
 .pBlanco{
     text-align: center;
     color: #fff;
-}
-
-.caja-ayuda {
-    color: #fff;
-    /*box-shadow: 0px 0 30px rgba(9, 73, 3, 0.329);*/
-    height: 100%;
-    padding: 60px 30px;
-    text-align: center;
-    transition: 0.3s;
-    border-color: #fff;
-    border: solid 3px;
-    /*border-radius: 1px;
-    background-color:#ffffffc7;*/
 }
 
 .columnaAyuda :hover{
@@ -298,7 +289,6 @@ div{
     background-color:#ffffff;
     border-color: #fff;
     /*border-radius: 1px;*/
-    
 }
 
   .icono {
@@ -427,49 +417,61 @@ div{
 
 
 /*button 1 externo*/
-.buttonDonar {
-    padding: 12px 24px;
-    border: solid 3px;
-    border-radius: 7px;
-    background-color: #00903b;
-    color: #fff;
-    font-size: 21px;
-    text-decoration: none;
-    vertical-align: middle;
+    .buttonDonar {
+        padding: 12px 24px;
+        border-top: solid 6px;
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-radius: 2px;
+        border-color: #016d2e;
+        background-color: #00903b;
+        color: #fff;
+        font-size: 21px;
+        text-decoration: none;
+        vertical-align: middle;
     }
-.buttonDonar:link{
-    background-color: #fff001;
-    color: #fff;
-}
-.buttonDonar:focus, .buttonDonar:hover{
-    background: #019cde;
-    color: #fff;
+    .buttonDonar:hover{
+        background-color: #fff;
+        color: #00903b;
     }
- /*.buttonDonar:active {
-    border-top-color: #9fcdeb;
-    background: #9fcdeb;
-    }*/
 
-.buttonDonarEsp{
-    padding: 12px 24px;
-    border: solid 3px;
-    border-radius: 7px;
-    border-color:  #fff;
-    background-color: #fff001;
-    color: #000;
-    font-size: 21px;
-    text-decoration: none;
-    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-    vertical-align: middle;
+
+
+    .buttonDonarEsp {
+        padding: 12px 24px;
+        border-top: solid 6px;
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-radius: 7px;
+        border-color: #b1a720;
+        background-color: #fff02d;
+        color: #000;
+        font-size: 21px;
+        text-decoration: none;
+        vertical-align: middle;
     }
-.buttonDonarEsp:hover{
-    border-color: #fff001;
+    .buttonDonarEsp:hover{
+    border-color: #fff02d;
     background: #fff;
-    color: #000;
+    color: #fff02d;
     }
-.buttonDonarEsp:active {
-    color: #000;
-    background: #000;
+
+
+    .buttonDonarNin {
+        padding: 12px 24px;
+        border-radius: 5px;
+        border-top: solid 6px;
+        border-color: #006386;
+        background-color: #00abeb;
+        color: #fff;
+        font-size: 21px;
+        text-decoration: none;
+        vertical-align: middle;
+    }
+    .buttonDonarNin:hover{
+    border-color: #00abeb;
+    background: #fff;
+    color: #00abeb;
     }
 
 
@@ -489,8 +491,4 @@ div{
         border-color: #878a9c;
         background: #fff;
         color: #000;
-        }
-    .buttonContacto:active {
-        border-top-color: #9fcdeb;
-        background: #9fcdeb;
         }
