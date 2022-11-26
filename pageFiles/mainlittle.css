@@ -45,3 +45,13 @@
     background: linear-gradient(0deg, #cfcfd1, #9192a6);
     color: #fff;
   }
+
+/*  /////////////  slider de logos ////////////////////////////////////////////////////////////// */
+.aliadosSection .texto{
+  padding: 2rem;
+}
+.aliadosSection .abajo{
+  padding: 2rem;
+} 
+
+  /* //////// fin sliders logos ////////////////////////////////////////////////// */
