@@ -30,43 +30,43 @@
   <main>
     
     <div>
-        <nav class="navbar navbar-main navbar-expand-lg fixed-top bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand me-lg-5" href="./main.html">
-              <img src="../imgs/logo1.png" alt="" class="d-block w-100 mx-auto imgbrand">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse me-auto" id="navbarNav">
-              <ul class="navbar-nav navbar-nav-hover">
-                <li class="nav-item">
-                  <a class="nav-link" href="./main.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./acercade.html">¿Quiénes somos?</a>
-                </li>
-                <!--li class="nav-item">
-                      <a class="nav-link" href="./actividades.html">Actividades</a>
-                    </li=-->
-                <li class="nav-item">
-                  <a class="nav-link" href="./donaciones.html">¿Cómo ayudar?</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./transparencia.html">Transparencia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="3">Contacto</a>
-                </li>
-              </ul>
-            </div>
-            <div class="d-flex align-items-right">
-              <a href="./donacionesEfectivo.html" class="buttonDonarMenu">DONAR</a>
-            </div>
+      <nav class="navbar navbar-main navbar-expand-lg fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand me-lg-5" href="./main.html">
+            <img src="../imgs/logo1.png" alt="" class="d-block w-100 mx-auto imgbrand">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-auto" id="navbarNav">
+            <ul class="navbar-nav navbar-nav-hover">
+              <li class="nav-item">
+                <a class="nav-link" href="./main.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./acercade.html">¿Quiénes somos?</a>
+              </li>
+              <!--li class="nav-item">
+                    <a class="nav-link" href="./actividades.html">Actividades</a>
+                  </li=-->
+              <li class="nav-item">
+                <a class="nav-link" href="./donaciones.html">¿Cómo ayudar?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./transparencia.html">Transparencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+          <div class="d-flex align-items-right">
+            <a href="./donacionesEfectivo.html" class="buttonDonarMenu">DONAR</a>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <section class="bannerImg">
       <div>
@@ -79,62 +79,60 @@
     </section>
 
 
-     <!-- pie de pagina -->
-    <section class="section">
-        <div class="container">
-            <div class="header-page mob-mt">
-                <h2>CONTACTO</h2>
-            </div>
-    
-            <div class="formulario">
-                <form method="POST" class="box contact-valid" id="contact-form" action="mail.php">
-                    <div class="row gy-3">
-                        <div class="col-lg-6">
-                            <input type="text" name="name" id="name" class="form-control" placeholder="Nombre *">
-                        </div>
-                        <div class="col-lg-6">
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Email *">
-                        </div>
-                        <div class="col">
-                            <textarea class="form-control" name="note" id="note" placeholder="Su Mensaje."></textarea>
-                        </div>
-                        <div class="col-lg-12 col-sm-12 text-center">
-                            <button type="submit" class="buttonContacto">Enviar Mensaje</button>
-                            <div id="loader">
-                                <i class="fas fa-sync"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-sm-12">
-                            <div class="error-messages">
-                                <div id="success">
-                                    <i class="far fa-check-circle"></i>Gracias! Su mensaje a sido enviado.
-                                </div>
-                                <div id="error">
-                                    <i class="far fa-times-circle"></i>A ocurrido un error mientras se enviaba el mensaje.
-                                    Porfavor
-                                    intentelo mas tarde.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-    
-            <div class="mb-bb text-center">
-                <p>
-                    Nuestro aviso de privacidad tiene por objeto informar sobre los alcances y condiciones generales del
-                    tratamiento de sus datos personales, a fin de que esté en posibilidad de tomar decisiones informadas
-                    sobre
-                    el uso de su información personal y, en consecuencia, mantener el control y disposición sobre ella.
-                </p>
-                <h3>Descarga aquí nuestro Aviso de Privacidad Donantes</h3>
-                <a href="AvisodePrivacidadDonantes.pdf">
-                    <button type="submit" class="buttonContacto">Descargar aquí.</button>
-                </a>
-            </div>
+    <!-- pie de pagina -->
+    <section class="section " id="contacto">
+      <div class="container">
+        <div class="header-page mob-mt">
+          <h2>CONTACTO</h2>
         </div>
+
+        <div class="formulario">
+          <form method="POST" class="box contact-valid" id="contact-form" action="mail.php">
+            <div class="row gy-3">
+              <div class="col-lg-6">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre *">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email *">
+              </div>
+              <div class="col">
+                <textarea class="form-control" name="note" id="note" placeholder="Su Mensaje."></textarea>
+              </div>
+              <div class="col-lg-12 col-sm-12 text-center">
+                <button type="submit" class="buttonContacto">Enviar Mensaje</button>
+                <div id="loader">
+                  <i class="fas fa-sync"></i>
+                </div>
+              </div>
+              <div class="col-lg-12 col-sm-12">
+                <div class="error-messages">
+                  <div id="success">
+                    <i class="far fa-check-circle"></i>Gracias! Su mensaje a sido enviado.
+                  </div>
+                  <div id="error">
+                    <i class="far fa-times-circle"></i>A ocurrido un error mientras se enviaba el mensaje. Porfavor
+                    intentelo mas tarde.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="mb-bb text-center">
+          <p>
+            Nuestro aviso de privacidad tiene por objeto informar sobre los alcances y condiciones generales del
+            tratamiento de sus datos personales, a fin de que esté en posibilidad de tomar decisiones informadas sobre
+            el uso de su información personal y, en consecuencia, mantener el control y disposición sobre ella.
+          </p>
+          <h3>Descarga aquí nuestro Aviso de Privacidad Donantes</h3>
+          <a href="AvisodePrivacidadDonantes.pdf">
+            <button type="submit" class="buttonContacto">Descargar aquí.</button>
+          </a>
+        </div>
+      </div>
     </section>
-      <!-- fin pie -->
+    <!-- fin pie -->
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

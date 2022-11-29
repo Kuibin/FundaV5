@@ -255,6 +255,9 @@ div{
     background-color: #9ca3af
 }
 
+
+
+
 /*----------------------------------------------------------------------------*/
 
 
@@ -430,7 +433,7 @@ div{
         border-top: solid 6px;
         border-left: solid 1px;
         border-right: solid 1px;
-        border-radius: 7px;
+        border-radius: 2px;
         border-color: #b1a720;
         background-color: #fff02d;
         color: #000;
@@ -447,7 +450,9 @@ div{
 
     .buttonDonarNin {
         padding: 12px 24px;
-        border-radius: 5px;
+        border-radius: 2px;
+        border-left: solid 1px;
+        border-right: solid 1px;
         border-top: solid 6px;
         border-color: #006386;
         background-color: #00abeb;
@@ -464,8 +469,10 @@ div{
 
     .buttonApa {
         padding: 12px 24px;
-        border-radius: 5px;
+        border-radius: 2px;
         border-top: solid 6px;
+        border-left: solid 1px;
+        border-right: solid 1px;
         border-color: #6b6b6b70;
         background-color: #9192a66b;
         color: #000;
