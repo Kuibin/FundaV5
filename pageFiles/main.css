@@ -269,9 +269,18 @@ div{
 .ayudaSection{
     background-color: #00903b;
 }
+.encabezadosNegro{
+    text-align: center;
+    color: #000;
+    margin: 10px 0 0 0;
+    padding-bottom: 40px;
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 700;
+}
 .encabezadosBlanco{
     text-align: center;
-    color: #fff;
+    color:   #fff;
     margin: 10px 0 0 0;
     padding-bottom: 40px;
     font-size: 40px;
@@ -485,13 +494,13 @@ div{
     background: #fff;
     color: #000;
     }
-
-
     .buttonContacto{
         padding: 12px 24px;
-        border: solid 3px;
-        border-radius: 7px;
-        border-color:  #fff;
+        border-radius: 2px;
+        border-top: solid 6px;
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-color:  #9192a6;
         background-color: #1a1a1a;
         color: #fff;
         font-size: 21px;
@@ -500,7 +509,11 @@ div{
         vertical-align: middle;
         }
     .buttonContacto:hover{
-        border-color: #878a9c;
         background: #fff;
         color: #000;
-        }
+        border-color:  #1a1a1a;
+    }
+
+    .contSection{
+        background-color: #9192a6;
+    }
