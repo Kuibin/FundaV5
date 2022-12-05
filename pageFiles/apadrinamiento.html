@@ -7,7 +7,7 @@
   <title>Fundacion </title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <link rel='stylesheet' type='text/css' media='screen' href='transparencia.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='apadrinamiento.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <script src='main.js'></script>
@@ -50,8 +50,14 @@
               <!--li class="nav-item">
                     <a class="nav-link" href="./actividades.html">Actividades</a>
                   </li=-->
-              <li class="nav-item">
-                <a class="nav-link" href="./donaciones.html">¿Cómo ayudar?</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="nbDrDown" data-bs-toggle="dropdown" aria-expanded="false">¿Cómo ayudar?</a>
+                <ul class="dropdown-menu" aria-labelledby="nvDrDown">
+                  <li><a class="nav-link dropdown-item" href="./donaciones.html">En especie</a></li>
+                  <li><a class="nav-link dropdown-item" href="./donacionesEfectivo.html">En efectivo</a></li>
+                  <li><a class="nav-link dropdown-item" href="./apadrinamiento.html">Apadrina un niño/a</a></li>
+                  <li><a class="nav-link dropdown-item" href="./voluntariado.html">Se voluntario</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./transparencia.html">Transparencia</a>
@@ -74,17 +80,42 @@
       </div>
     </section>
 
-    <section class="section caroulseSection">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3>Apadrina a un niño</h3>
-            <p><b>EL QUE NO VIVE PARA SERVIR, NO SIRVE PARA VIVIR</b></p>
-            <p>No hay nada mejor que ser el cambio en la vida de otros, con ejemplo, con cuidados o con aportes
-            </p>
+    <section class="section carouselSection">
+      <div class="container ">
+        <div class="row gx-0">
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <div class="cBln">
+              <h3>Apadrina a un niño</h3>
+              <p><b>EL QUE NO VIVE PARA SERVIR, NO SIRVE PARA VIVIR</b></p>
+              <p>No hay nada mejor que ser el cambio en la vida de otros, con ejemplo, con cuidados o con aportes
+              </p>
+            </div>
           </div>
           <div class="col-md-6">
             <img src="../imgs/FRB - Imagen 6.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <h3 class="encabezadosNegro">Tipos de apadrinamiento</h3>
+          <div class="col-md-4 p-3">
+            <div class="colorAz">
+              <p>proximamente datos</p>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="colorAz">
+              <p>proximamente datos</p>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="colorAz">
+              <p>proximamente datos</p>
+            </div>
           </div>
         </div>
       </div>
