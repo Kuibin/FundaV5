@@ -1,6 +1,8 @@
 .colorFondo{
-    background-color: #fff02D;
+    background-color: #fff12d;
+    border-radius: 4px;
 }
+
 
 .Mayusculas{
     text-transform: uppercase;
@@ -9,4 +11,13 @@
 .btnDonar{
     background-color: #fff02D; 
     font-size: 35px;
+}
+
+.tableCont{
+    background-color: #9192a66b;
+    padding: 40px;
+}
+
+.tituloDon{
+
 }

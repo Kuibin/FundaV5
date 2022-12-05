@@ -123,8 +123,7 @@ div{
     position: relative;
 }
 .carouselSection{
-    background-color: #029bde
-    ;
+    background-color: #029bde;
 }
 .carousel-item {
     position: relative;
@@ -483,14 +482,14 @@ div{
         border-left: solid 1px;
         border-right: solid 1px;
         border-color: #6b6b6b70;
-        background-color: #9192a66b;
+        background-color: #9192a6;
         color: #000;
         font-size: 21px;
         text-decoration: none;
         vertical-align: middle;
     }
     .buttonApa:hover{
-    border-color: #6b6b6b70;
+    border-color: #6b6b6b;
     background: #fff;
     color: #000;
     }
@@ -516,4 +515,20 @@ div{
 
     .contSection{
         background-color: #9192a6;
+    }
+
+
+    .colorVer{
+        box-shadow: 2px 2px 2px 2px #016d2ea8;
+    }
+    .colorAz{
+        box-shadow: 2px 2px 2px 2px #00abeb;
+    }
+    .colorGr{
+        box-shadow: 2px 2px 2px 2px #9192a6;
+    }
+    .colorBlanco{
+        background-color: #fff;
+        border-radius: 5px;
+        
     }
